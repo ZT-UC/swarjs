@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  background-color: #17171a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.main-page, .track-info, .artists-info, .search-info,
+h4, section  {
+  padding: 0 1em;
+}
+
+/* COMMON */
+
+h4, section {
+  margin-top: 0;
+  text-align: left;
+}
+
+button {
+  font-size: 75%;
+}
+
+span {
+  font-size: 85%;
+}
+
+b {
+  font-size: 115%;
+}
+
+font {
+  color: #1db954;
+}
+
+a:link,
+a:visited {
+  color: #1db954;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #61dafb;
+}
+
+input,
+select {
+  font-size: 100%;
+}
+
+/* CLASSES */
+
+.react-font {
+  color: #61dafb;
+}
+
+.track-image {
+  height: 320px;
+}
+
+.no-image-track {
+  height: 20rem;
+  width: 20rem;
+}
+
+.artist-image, .artist-image-features {
+  height: 192px;
+}
+
+.no-image-artist, .no-image-features {
+  height: 192px;
+  width: 192px;
+  background: repeating-radial-gradient(#808, #000 20%);
+}
+
+.buttons {
+  margin-bottom: 0.75em
+}
+
+.select-all-button, .clear-button {
+  margin-left: 10px;
+}
